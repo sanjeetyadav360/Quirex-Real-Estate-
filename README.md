@@ -77,30 +77,21 @@ Quirex/
 ```
 ## Installation
 ### Clone Repository
-```bash
 git clone https://github.com/yourusername/quirex.git
 cd quirex
-```
 ### Frontend Setup
-```bash
 cd frontend
 npm install
 npm start
-```
 ### Backend Setup
-
-```bash
 cd backend
 npm install
 npm run dev
-```
 ## Environment Variables
 Create a `.env` file in backend folder:
-```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
-```
 ## Future Enhancements
 * Online Property Booking
 * Payment Gateway Integration
@@ -111,6 +102,5 @@ JWT_SECRET=your_secret_key
 
 ## Author
 Developed by: Sanjeet yadav
-
 ## License
 This project is developed for educational and learning purposes.
